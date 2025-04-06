@@ -7,5 +7,5 @@ export function add(a: number, b: number) {
         throw new Error("Both arguments must be numbers")
     }
 
-    return a + b
+    return a - b
 }
